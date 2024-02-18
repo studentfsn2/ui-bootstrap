@@ -1,0 +1,298 @@
+.card-div {
+    width: 15rem;
+}
+
+
+
+.content {
+    display: flex;
+    padding: 90px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.fillup {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fire {
+    /* position: relative;
+    margin-bottom: 20px ; */
+    /* display: flex; */
+
+}
+
+.position {
+    /* position: absolute; */
+    /* left: 30%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.prods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.develop {
+    position: relative;
+    /* overflow: hidden !important; */
+    /* border: 1px solid red; */
+}
+
+.img1 {
+    height: 700px;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 10px;
+    /* position: absolute; */
+}
+
+.tec1 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.link {
+    /* display: flex; */
+    /* flex-direction: row; */
+    position: relative;
+}
+
+.ram {
+    position: absolute;
+}
+
+.video-post {
+    position: relative;
+    border: 2px solid gray;
+}
+
+.video-post h1 {
+    position: absolute;
+    bottom: 15%;
+    color: aliceblue;
+    /* border: 2px solid red; */
+}
+
+.video-post h2 {
+    position: absolute;
+    bottom: 10%;
+    color: white;
+}
+
+
+/* .cloud{
+    position: sticky !important;
+    top: 0 !important;
+} */
+.enough {
+    display: flex;
+    gap: 20px;
+}
+
+.last {
+    height: 400px;
+    width: 100%;
+    border: 1px solid red;
+    background-color: #ffffff;
+}
+
+/* 
+.lists li {
+    list-style: none;
+    color: #616161;
+    line-height: 20px !important;
+    padding: 10px 0;
+}
+.lists :nth-child(1) {
+    font-weight: 700;
+}
+.ms-footer {
+    background-color: #e1eced;
+}
+
+@media screen and (max-width: 560px) {
+    .lists {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+.area {
+    list-style: none;
+
+}
+
+.area :nth-child(1) {
+    font-weight: 1000;
+
+}
+
+.area li {
+    line-height: 20px;
+    padding: 20px 0;
+}
+
+.rockey {
+    background-color: #e1eced;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.one {
+    display: flex;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.one li {
+    list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+    .area li {
+        padding: 10px 0;
+    }
+
+    .carousel-item img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .one {
+        flex-direction: column;
+    }
+
+    .content {
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .content .card-div {
+        width: 100% !important;
+    }
+
+    .fillup {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .fillup .card-div {
+        width: 95%;
+    }
+
+    .position {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .enough {
+        /* flex-direction: column; */
+        padding: 40px;
+    }
+    .enough h1 {
+        font-size: 16px;
+    }
+    .enough img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .video-post {
+        /* padding: 50px; */
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        /* margin: 0 15px; */
+        border: none;
+    }
+    .video-post h1,
+    .video-post h2 {
+        display: none;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        /* pad: 50px; */
+        /* margin: 10px 10px; */
+    }
+    .flex .card-div {
+        width: 95%;
+    }
+
+    .develop {
+        display: none;
+
+    }
+}
+
+.doremon {
+    display: flex;
+    justify-content: center;
+}
+
+.command {
+    height: 100%;
+    width: 500px;
+    border: 1px solid red;
+
+}
+
+.div1 {
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+}
+
+.hari {
+    height: 200px;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.hari1 {
+    height: 200px;
+    width: 33.3%;
+    border: 1px solid red;
+}
+
+.hari img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.hari1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
